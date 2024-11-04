@@ -1,7 +1,7 @@
 .PHONY:all clean
 
 encrypt:
-	./main -e -i plaintext.txt -o CaesarCipher.bin
+	./main -e -i test1.txt -o CaesarCipher.bin
 decrypt:
 	./main -d -o plaintext.txt -i CaesarCipher.bin
 
